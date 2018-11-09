@@ -4,11 +4,11 @@
 ## Usage
 ```javascript
 // Generate a new 4x4 scramble with the seed of 1
-var seeded_scramble = new ICAScrambow().setType('444').setSeed(1).get();
+const seeded_scramble = new ICAScrambow().setType('444').setSeed(1).get();
 console.log(seeded_scramble);
 
 // Generate 5 scrambles (defaults to 3x3)
-var multiple_scrambles = new ICAScrambowow().get(5);
+const multiple_scrambles = new ICAScrambowow().get(5);
 console.log(multiple_scrambles);
 ```
 
@@ -31,9 +31,9 @@ npm install -g icascrambo
 npm install icascrambo
 ```
 ```javascript
-var Scrambow = require('icascrambo').Scrambow;
+const ICAScrambo = require('icascrambo').Scrambow;
 
-var threebythree = new ICAScrambow(); // Defaults to 3x3
+const threebythree = new ICAScrambow(); // Defaults to 3x3
 console.log(threebythree.get(5)); // Returns 5 scrambles
 ```
 
