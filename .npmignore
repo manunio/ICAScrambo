@@ -1,0 +1,13 @@
+/.nyc_output
+/coverage
+/node_modules
+/example
+/scripts
+/src
+/test
+webpack.config.js
+scrambo.svg
+yarn-error.log
+yarn.lock
+tsconfig.json
+*.tgz
